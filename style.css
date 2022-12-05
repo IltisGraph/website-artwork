@@ -1,0 +1,47 @@
+
+#header{
+    text-align: center;
+    color: black;
+}
+
+body{
+    
+    background: linear-gradient(to right, #dec3c3, #ffffff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.imagewrapperwrapper{
+    /*background-color: red;*/
+    width: 100%;
+    height: 30%;
+}
+
+.imagewrapper{
+    
+}
+
+.left_image{
+    width: 44%;
+    height: 100%;
+    float: right;
+    margin-right: 5.7%;
+    margin-bottom: .7%;
+}
+
+.right_image{
+    width: 44%;
+    height: 100%;
+    float: left;
+    margin-left: 5.7%;
+    margin-bottom: .7%;
+
+    border: 0px solid;
+}
+
+#sonderbild{
+    width: 44%;
+    transform: scaleY(.8);
+    margin-top: -3.3%;
+    margin-left: .7%;
+}
