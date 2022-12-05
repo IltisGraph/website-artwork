@@ -1,7 +1,28 @@
 
-#header{
+.header{
+    
+    height: 480px;
     text-align: center;
     color: black;
+    
+
+
+    margin-bottom: 3%;
+}
+
+#backgroundheader{
+    position: static;
+    transform: scaleX(.99);
+
+    top: 4.2%;
+    left: -1%;
+    
+}
+
+#headertext{
+    position: absolute;
+    top: 0px;
+    left:44%;
 }
 
 body{
