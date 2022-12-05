@@ -14,11 +14,15 @@
     position: static;
     transform: scaleX(.99);
 
-    width: 100%;
+    
 
     top: 4.2%;
     left: -1%;
     
+}
+
+#headerimage{
+    width:100%;
 }
 
 #headertext{
