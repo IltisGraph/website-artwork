@@ -27,8 +27,11 @@
 
 #headertext{
     position: absolute;
+    width:20%;
     top: 0px;
-    left:44%;
+    left:40%;
+    font-size: 100%;
+    
 }
 
 body{
