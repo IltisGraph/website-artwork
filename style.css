@@ -25,6 +25,10 @@
     width:100%;
 }
 
+#heading{
+    font-size: 45px;
+}
+
 #headertext{
     position: absolute;
     color: white;
@@ -32,7 +36,8 @@
     width:30%;
     top: 0px;
     left:35%;
-    font-size: 100%;
+    font-size: 45px;
+    
     
 }
 
@@ -49,9 +54,7 @@ body{
     height: 30%;
 }
 
-.imagewrapper{
-    
-}
+
 
 .left_image{
     width: 44%;
@@ -59,6 +62,7 @@ body{
     float: right;
     margin-right: 5.7%;
     margin-bottom: .7%;
+   
 }
 
 .right_image{
@@ -67,7 +71,7 @@ body{
     float: left;
     margin-left: 5.7%;
     margin-bottom: .7%;
-
+    
     border: 0px solid;
 }
 
@@ -76,4 +80,55 @@ body{
     transform: scaleY(.8);
     margin-top: -3.3%;
     margin-left: .7%;
+}
+
+/* for mobile devices*/
+@media only screen and (max-width: 500px){
+    #heading{
+        font-size: 25px;
+    }
+    #headertext{
+        font-size: 25px;
+    }
+
+    /*adapt images*/
+    .left_image{
+        margin-right: 5.7%;
+        margin-left: 5.7%;
+        width: 88.6%;
+        float: none;
+    }
+    .right_image{
+        margin-right: 5.7%;
+        margin-left: 5.7%;
+        width: 88.6%;
+        float: none;
+    }
+    #sonderbild{
+        margin-right: 5.7%;
+        margin-left: 5.7%;
+        width: 88.6%;
+        float: none;
+    }
+
+    /* adapt header image*/
+    #headerimage{
+        transform: scale(2, 2);
+        margin: 0px;
+        
+        
+        
+    }
+    #backgroundheader{
+        max-width: 107%;
+        overflow: hidden;
+        margin-left: 0px;
+        
+        
+    }
+
+    .header{
+        margin-bottom: 10%;
+    }
+
 }
