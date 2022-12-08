@@ -5,6 +5,7 @@
     text-align: center;
     color: black;
     
+    
 
 
     margin-bottom: 3%;
@@ -50,37 +51,48 @@ body{
 
 .imagewrapperwrapper{
     /*background-color: red;*/
-    width: 100%;
-    height: 30%;
+    width: 93%;
+    margin-left: auto;
+    
+    
+    
+    
 }
 
+
+#left_images{
+    width: 30%;
+    float: left;
+    height: 100%;
+    
+}
+#right_images{
+    width: 30%;
+    float: left;
+}
+#middle_images{
+    width: 30%;
+    float: left;
+    margin-left: .7%;
+    margin-right: .7%;
+}
 
 
 .left_image{
-    width: 44%;
-    height: 100%;
-    float: right;
-    margin-right: 5.7%;
-    margin-bottom: .7%;
-   
-}
-
-.right_image{
-    width: 44%;
-    height: 100%;
-    float: left;
-    margin-left: 5.7%;
-    margin-bottom: .7%;
+    width: 100%;
     
-    border: 0px solid;
+}
+.right_image{
+    width: 100%;
+}
+.middle_image{
+    width: 100%;
+    
 }
 
-#sonderbild{
-    width: 44%;
-    transform: scaleY(.8);
-    margin-top: -3.3%;
-    margin-left: .7%;
-}
+
+
+
 
 /* for mobile devices*/
 @media only screen and (max-width: 500px){
@@ -92,24 +104,28 @@ body{
     }
 
     /*adapt images*/
-    .left_image{
-        margin-right: 5.7%;
-        margin-left: 5.7%;
-        width: 88.6%;
+    #left_images{
+        width: 100%;
+        float: none;
+       
+        
+    }
+    #right_images{
+        width: 100%;
         float: none;
     }
-    .right_image{
-        margin-right: 5.7%;
-        margin-left: 5.7%;
-        width: 88.6%;
+    #middle_images{
+        width: 100%;
         float: none;
+        margin-left: 0px;
+        margin-right: 0px;
     }
-    #sonderbild{
-        margin-right: 5.7%;
-        margin-left: 5.7%;
-        width: 88.6%;
-        float: none;
+
+    .imagewrapperwrapper{
+        margin-left: none;
+        width: 100%;
     }
+    
 
     /* adapt header image*/
     #headerimage{
