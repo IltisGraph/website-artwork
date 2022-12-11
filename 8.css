@@ -31,6 +31,16 @@ body{
     font-size: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#ebaybutton{
+    color: grey;
+}
+
+
 @media only screen and (max-width: 500px){
 
     #image{
