@@ -90,6 +90,16 @@ body{
     
 }
 
+#footer{
+    
+}
+
+#footerimg{
+    margin-top: 2%;
+    width: 85%;
+    margin-left: 7%;
+    
+}
 
 
 
@@ -145,6 +155,12 @@ body{
 
     .header{
         margin-bottom: 10%;
+    }
+
+    /* adapt down image*/
+    #footerimg{
+        width: 100%;
+        margin-left: 0px;
     }
 
 }
